@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Шашки с ИИ</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body oncontextmenu="return false;">
+  <div class="app">
+    <section class="board-area">
+      <div class="board-frame">
+        <div class="coords coords-top" id="coords-top"></div>
+        <div class="coords coords-bottom" id="coords-bottom"></div>
+        <div class="coords coords-left" id="coords-left"></div>
+        <div class="coords coords-right" id="coords-right"></div>
+        <div class="board" id="board"></div>
+        <div class="thinking-veil" id="veil">
+          <div class="spinner"></div>
+          <span id="veil-text" style="color: yellow;">Искусственный интеллект думает ...</span>
+        </div>
+      </div>
+    </section>
+    <aside class="sidebar">
+      <header class="brand">
+        <span class="brand-mark"></span>
+        <span class="brand-name">Шашки с ИИ</span>
+      </header>
+      <div class="turn" id="status">
+        <span class="turn-dot"></span>
+        <span class="turn-text">Новая игра</span>
+      </div>
+      <div class="divider"></div>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-label">Оценка</span>
+          <div class="evalbar"><div class="evalbar-fill" id="evalfill"></div></div>
+          <span class="stat-value" id="evalval">&mdash;</span>
+        </div>
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-label">Уверенность</span>
+            <span class="stat-value" id="confval">&mdash;</span>
+          </div>
+          <div class="stat">
+            <span class="stat-label">СИМС</span>
+            <span class="stat-value" id="simsval">&mdash;</span>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="control-group">
+        <span class="group-label">Новая игра</span>
+        <div class="btn-row">
+          <button class="btn btn-primary" id="btn-new-white">Белые</button>
+          <button class="btn" id="btn-new-black">Чёрные</button>
+        </div>
+      </div>
+      <div class="control-group">
+        <span class="group-label">Уровень</span>
+        <div class="seg" id="level-seg">
+          <button class="seg-btn active" data-sims="0">Обычный</button>
+          <button class="seg-btn" data-sims="250">Быстрый</button>
+          <button class="seg-btn" data-sims="500">Средний</button>
+          <button class="seg-btn" data-sims="700">Сильный</button>
+        </div>
+      </div>
+      <div class="sidebar-foot">Русские шашки · ИИ-соперник</div>
+    </aside>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

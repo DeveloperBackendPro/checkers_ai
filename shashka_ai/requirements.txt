@@ -1,0 +1,10 @@
+numpy
+torch>=2.1
+tensorboard
+onnx
+onnxscript
+onnxruntime
+pygame
+psutil
+nvidia-ml-py
+matplotlib
