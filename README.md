@@ -273,3 +273,4 @@ files.upload()
 --ckpt-dir /content/drive/MyDrive/shashka_ckpt \
 --log-dir /content/drive/MyDrive/shashka_ckpt/runs 
 ```
+<img width="1366" height="701" alt="Image" src="https://github.com/user-attachments/assets/727d0a06-9869-4658-97a4-836c9e0164ba" />
