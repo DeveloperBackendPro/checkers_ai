@@ -1,4 +1,4 @@
-<h1 align="center">Шашки с ИИ</h1>
+<h1 align="center">Checkers with AI</h1>
 
 <p align="center">
   <b>Rus shashkasi (Шашки) uchun self-play sun'iy intellekt</b><br>
