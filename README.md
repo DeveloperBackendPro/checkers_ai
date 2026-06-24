@@ -1,10 +1,7 @@
-<h1 align="center">Checkers with AI</h1>
-
 <p align="center">
   <b>Rus shashkasi (Шашки) uchun self-play sun'iy intellekt</b><br>
   <i>Noldan, faqat o'zi bilan o'ynab o'rganadi — inson bilimisiz.</i>
 </p>
-
 <p align="center">
   <img alt="python" src="https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white">
   <img alt="rust" src="https://img.shields.io/badge/Rust-engine-DEA584?logo=rust&logoColor=black">
@@ -12,7 +9,6 @@
   <img alt="onnx" src="https://img.shields.io/badge/ONNX-export-005CED?logo=onnx&logoColor=white">
   <img alt="license" src="https://img.shields.io/badge/License-MIT-lightgrey">
 </p>
-
 <p align="center">
   AlphaZero uslubi: <b>Transformer</b> neyron tarmoq + <b>Monte-Carlo daraxt qidiruvi (MCTS)</b>.<br>
   Tayyor model, inson partiyalari yoki debyut kitobi <b>ishlatilmaydi</b> — model barcha strategiyalarni o'zi kashf qiladi.
